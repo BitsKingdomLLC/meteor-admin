@@ -4,7 +4,6 @@
 		[
 			Meteor.subscribe 'adminUsers'
 			Meteor.subscribe 'adminUser'
-			Meteor.subscribe 'adminCollectionsCount'
 		]
 	onBeforeAction: ->
 		Session.set 'adminSuccess', null
